@@ -54,8 +54,6 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib-mvuradin.umd.js",
-  "module": "./dist/my-lib-mvuradin.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
