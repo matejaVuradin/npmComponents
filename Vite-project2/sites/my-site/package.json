@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "my-lib-mvuradin": "^1.0.0",
+    "my-lib-mvuradin": "*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.3",
+    "vite-comp-lib-bb": "^0.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

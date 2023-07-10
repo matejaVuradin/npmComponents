@@ -13,7 +13,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/lib/index.ts'),
-            name: 'MyLib',
+            name: 'my-lib-mvuradin',
             formats: ['es', 'umd'],
             fileName: (format) => `my-lib-mvuradin.${format}.js`,
         },
